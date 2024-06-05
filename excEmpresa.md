@@ -34,3 +34,4 @@ erDiagram
     DEPENDENTE }o -- || EMPREGADO : gerenciar
 ```
     
+<img>![image](https://github.com/asuoshig/banco-de-dados/assets/144859297/e6bfe88e-a335-45ed-bfc5-f2be922a38b1)</img>
