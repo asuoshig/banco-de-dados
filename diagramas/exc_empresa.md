@@ -1,4 +1,6 @@
 ```mermaid
+
+erDiagram
 DEPARTAMENTO{
         VARCHAR(100) nome
         int numero 
