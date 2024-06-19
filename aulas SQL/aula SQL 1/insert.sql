@@ -19,11 +19,11 @@ INSERT INTO pessoa_fisica (cpf, data_nascimento, sexo) VALUES
 ('53078108066', '1998-09-28', 'F');
 
 INSERT INTO pessoa_juridica (inscricao_estadual, cnpj) VALUES
-('12345678000101', '00176708000106' ),
+('12345678000101', '00176708000106'),
 ('22345678000102', '08841892000165'),
-('32345678000103', '65638719000106' ),
-('42345678000104', '27045861000142' ),
-('52345678000105', '54737586000109' );
+('32345678000103', '65638719000106'),
+('42345678000104', '27045861000142'),
+('52345678000105', '54737586000109');
 
 INSERT INTO pessoa_trabalho (cpf_cnpj, cargo, salario, data_admissao) VALUES
 ('39134853090', 'cozinheira', '2.500', '1984-08-09'),
@@ -32,7 +32,7 @@ INSERT INTO pessoa_trabalho (cpf_cnpj, cargo, salario, data_admissao) VALUES
 ('73596546028', 'TI', '4.250', '1999-03-09'),
 ('53078108066', 'COACH', '3.250', '1994-07-04');
 
-INSERT INTO codigo_endereco (codigo_endereco, tipo) VALUES
+INSERT INTO moradia (codigo_endereco, tipo) VALUES
 (1, 1),
 (2, 1),
 (3, 1),
@@ -41,14 +41,8 @@ INSERT INTO codigo_endereco (codigo_endereco, tipo) VALUES
 
 
 INSERT INTO endereco (codigo, logradouro, cidade, estado, cep) VALUES
-(1, 'Rua Alfa', 'Balneário Camboriú', 'Santa Catarina', '10000-000'),
-(1, 'Rua 009', 'Barra de São Francisco', 'Espirito Santo', '10000-123'),
-(1, 'Rua 15', 'Divisópolis', 'Minas Gerais', '12000-000'),
-(1, 'Rua Topazio', 'Eldorado do Sul', 'Rio Grande do Sul', '100789-000'),
-(1, 'Rua esmeralda', 'Lima Campos', 'Maranhão', '109870-000');
-
-
-
-
-
-
+(1, 'Rua Alfa', 'Balneário', 'goias', '10000-000'),
+(2, 'Rua 009', 'Barra', 'Goias', '10000-123'),
+(3, 'Rua 15', 'Divisópolis', 'Minas Gerais', '12000-000'),
+(4, 'Rua Topazio', 'Eldorad', 'Rio Grande', '100789-000'),
+(5, 'Rua esmeralda', 'Lima', 'Maranhão', '109870-000');
